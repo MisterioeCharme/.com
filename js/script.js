@@ -1,24 +1,24 @@
 // Dados dos produtos
 const products = [
     {
-        id: "MC-001",
-        name: "Conjunto Renda Clássico",
-        price: 89.9,
+        id: "CJ-001",
+        name: "Conjunto Kesila",
+        price: 50.0,
         category: "Conjuntos",
-        colors: ["preto", "vermelho", "branco"],
-        sizes: ["P", "M", "G"],
-        image: "https://images.unsplash.com/photo-1582293281566-1e59b93c6773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        colors: ["Marinho", "Vermelho"],
+        sizes: ["M", "G","GG"],
+        image: "https://images.tcdn.com.br/img/img_prod/1277201/conjunto_kesila_14126_variacao_11696_1_3408545a4b9d5b18768edf90c4bcf3ec.png",
         featured: true
     },
     {
         id: "MC-002",
-        name: "Sutiã Push-Up Luxo",
-        price: 59.9,
-        category: "Sutiãs",
-        colors: ["nude", "preto"],
-        sizes: ["P", "M", "G"],
-        image: "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-        featured: true
+        name: "Conjunto Any",
+        price: 55.50,
+        category: "Conjuntos",
+        colors: ["Aço"],
+        sizes: ["M"],
+        image: "https://images.tcdn.com.br/img/img_prod/1277201/conjunto_any_9992_variacao_5249_1_1ff9af0e351dcd48e981816463b53d86.jpg",
+        featured: false
     },
     {
         id: "MC-003",
@@ -31,34 +31,34 @@ const products = [
         featured: true
     },
     {
-        id: "MC-004",
-        name: "Body Renda Elegance",
-        price: 119.9,
-        category: "Bodies",
-        colors: ["preto"],
-        sizes: ["M", "G"],
-        image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        id: "CL-001",
+        name: "Caleçon Pantera",
+        price: 20.00,
+        category: "Calcinhas",
+        colors: ["Branco"],
+        sizes: ["P"],
+        image: "https://images.tcdn.com.br/img/img_prod/1277201/calecon_pantera_13759_variacao_8603_1_850c94485a6e4666074e6363a0eba637.jpg",
         featured: true
     },
     {
-        id: "MC-005",
-        name: "Camisola Seda Suave",
-        price: 99.9,
-        category: "Camisolas",
-        colors: ["vino", "preto"],
-        sizes: ["P", "M", "G"],
-        image: "https://images.unsplash.com/photo-1594744803324-5c5c6d13f2e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        id: "CL-002",
+        name: "Tanga Larissa",
+        price: 15.10,
+        category: "Calcinhas",
+        colors: ["Vermelho ", "Preto"],
+        sizes: ["P", "M"],
+        image: "https://images.tcdn.com.br/img/img_prod/1277201/tanga_larissa_14144_variacao_11826_1_9e08261ee454b4886e7f1589d527f67a.png",
         featured: false
     },
     {
-        id: "MC-006",
-        name: "Conjunto Strappy Bold",
-        price: 109.9,
-        category: "Conjuntos",
-        colors: ["preto"],
-        sizes: ["P", "M", "G"],
-        image: "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
-        featured: false
+        id: "ST-000",
+        name: "Sutiã Amamentação Emanuele",
+        price: 45.90,
+        category: "Sutia",
+        colors: ["Sanremo","Rubi"],
+        sizes: ["M", "G","GG"],
+        image: "https://images.tcdn.com.br/img/img_prod/1277201/sutia_amamentacao_emanuele_14128_variacao_11704_1_a881fc377a2ccb78b541ff5487701de2.png",
+        featured: true
     }
 ];
 
