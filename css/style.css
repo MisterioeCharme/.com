@@ -427,6 +427,7 @@ footer {
 
 /* WhatsApp Button */
 .whatsapp-float {
+    display: none !important;
     position: fixed;
     bottom: 25px;
     right: 25px;
@@ -533,4 +534,52 @@ footer {
 .no-products p {
     font-size: 1.2rem;
     color: var(--gray);
+}
+
+/* Produtos - grid */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* padrão desktop */
+    gap: 30px;
+}
+
+/* Responsivo - Tablet */
+@media (max-width: 992px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 produtos por linha */
+    }
+}
+
+/* Responsivo - Celular */
+@media (max-width: 576px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr); /* força 2 produtos lado a lado */
+        gap: 15px;
+    }
+}
+/* Garantir que todos os cards tenham a mesma altura */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* garante altura igual no grid */
+}
+
+/* Container de informações do produto */
+.product-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* ocupa o espaço disponível */
+}
+
+/* Botão sempre no final do card */
+.buy-btn {
+    background: var(--primary);
+    color: var(--white);
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: auto; /* empurra botão para o fim */
 }
